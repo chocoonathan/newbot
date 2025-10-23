@@ -46,7 +46,7 @@ API_MAELYN = os.environ.get("API_MAELYN", "mg-uGGaRCcmZDjArQICfSRKj4lI6AotdnCJ")
 API_BOTCAHX = os.environ.get("API_BOTCAHX", "podlXrLQ")
 BOT_NAME = os.environ.get("BOT_NAME", "mylegionsbot")
 DB_NAME = os.environ.get("DB_NAME", "Legion")
-URL_LOGO = os.environ.get("URL_LOGO", "https://files.catbox.moe/zzgnzm.jpg")
+URL_LOGO = os.environ.get("URL_LOGO", "https://files.catbox.moe/9mt1rt.jpg")
 BLACKLIST_GCAST = get_blacklist()
 SUDO_OWNERS = list(
     map(
@@ -106,4 +106,5 @@ for P in FAKE_DEVS:
         SUDO_OWNERS.append(P)
 
 ENCRYPTION_KEY_HOLDER = [None]
+
 
