@@ -81,7 +81,7 @@ SPOTIFY_CLIENT_SECRET = os.environ.get(
 FAKE_DEVS = list(map(int, os.environ.get("FAKE_DEVS", "2131825735").split()))
 SAWERIA_EMAIL = os.environ.get("SAWERIA_EMAIL", "chcnathan@gmail.com")
 SAWERIA_USERID = os.environ.get(
-    "SAWERIA_USERID", "1162e95a-a840-4892-b9c0-4078c306ac55"
+    "SAWERIA_USERID", "50e13c97-a606-4d31-878d-2fc38b41c6a5"
 )
 SAWERIA_USERNAME = os.environ.get("SAWERIA_USERNAME", "keisvr")
 KYNAN = list(
@@ -106,6 +106,7 @@ for P in FAKE_DEVS:
         SUDO_OWNERS.append(P)
 
 ENCRYPTION_KEY_HOLDER = [None]
+
 
 
 
