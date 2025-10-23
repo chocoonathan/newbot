@@ -1620,6 +1620,9 @@ async def get_inline_help(result, inline_query):
                 if not data["is_pro"] and not data["is_basic"]
             }
             plan_teks = "Lite"
+        else:
+            visible_helpable = HELPABLE
+            plan_teks = "Pro"
         text_help = (
             await dB.get_var(user_id, "text_help")
             or f"**🤖 {BOT_NAME} by {USENAME_OWNER}**"
