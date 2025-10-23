@@ -110,7 +110,7 @@ class CMD:
                     return await func(client, message)
                 if expired_date is None:
                     return await message.reply(
-                        "<blockquote><b>Maaf, masa aktif Bot Sewa Private Anda sudah habis!!\nSilahkan kontak @navycode or @kenapasinan untuk memperpanjang masa aktif bot.</b></blockquote>"
+                        "<blockquote><b>Maaf, masa aktif Bot Sewa Private Anda sudah habis!!\nSilahkan kontak @KeiSavior untuk memperpanjang masa aktif bot.</b></blockquote>"
                     )
             return await func(client, message)
 
@@ -561,3 +561,4 @@ class CMD:
             return await func(client, message)
 
         return function
+
