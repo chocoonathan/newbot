@@ -205,7 +205,7 @@ async def ExpiredSewa():
             if now >= exp:
                 await bot.send_message(
                     OWNER_ID,
-                    "<blockquote><b>Maaf, masa aktif Bot Sewa Private Anda sudah habis!!\nSilahkan kontak @navycode or @kenapasinan untuk memperpanjang masa aktif bot.</b></blockquote>",
+                    "<blockquote><b>Maaf, masa aktif Bot Sewa Private Anda sudah habis!!\nSilahkan kontak @KeiSavior untuk memperpanjang masa aktif bot.</b></blockquote>",
                 )
                 await dB.rem_expired_date(BOT_ID)
                 await asyncio.sleep(360)
@@ -284,3 +284,4 @@ async def ExpiredUser():
                     f"Deleted users {user_id}: {traceback.format_exc()}",
                 )
         await asyncio.sleep(360)
+
