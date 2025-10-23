@@ -484,7 +484,7 @@ class Tools:
                     await dB.add_to_var(client.me.id, "BLACKLIST_GCAST", chat_id)
                 return link
             else:
-                des = "Jangan Keluar Dari Grup Log Ini\n\nPowered by: NAVY TEAM"
+                des = "Jangan Keluar Dari Grup Log Ini\n\nPowered by: KEI"
                 gc = await client.create_supergroup(nama, des)
                 photo = await Tools.get_logo()
                 gmbr = {"video": photo} if photo.endswith(".mp4") else {"photo": photo}
@@ -1557,3 +1557,4 @@ class Tools:
         img.save(path)
 
         return path
+
