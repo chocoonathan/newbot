@@ -34,7 +34,7 @@ COOKIES_U_BING = os.environ.get(
     "COOKIES_U_BING",
     "",
 )
-USENAME_OWNER = os.environ.get("USENAME_OWNER", "Marc")
+USENAME_OWNER = os.environ.get("USENAME_OWNER", "@KeiSavior")
 API_ID = int(os.environ.get("API_ID", 26064844))
 MAX_BOT = int(os.environ.get("MAX_BOT", 500))
 API_HASH = os.environ.get("API_HASH", "f258150b01368f2c49a09fa74136ac6d")
@@ -106,6 +106,7 @@ for P in FAKE_DEVS:
         SUDO_OWNERS.append(P)
 
 ENCRYPTION_KEY_HOLDER = [None]
+
 
 
 
