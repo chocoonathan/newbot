@@ -67,7 +67,7 @@ DEVS = list(
     )
 )
 AKSES_DEPLOY = list(
-    map(int, os.environ.get("AKSES_DEPLOY", "2131825735").split())
+    map(int, os.environ.get("AKSES_DEPLOY", "2131825735 1110718903 1419986660").split())
 )
 OWNER_ID = int(os.environ.get("OWNER_ID", 2131825735))
 LOG_SELLER = int(os.environ.get("LOG_SELLER", -1002784456850))
@@ -106,6 +106,7 @@ for P in FAKE_DEVS:
         SUDO_OWNERS.append(P)
 
 ENCRYPTION_KEY_HOLDER = [None]
+
 
 
 
