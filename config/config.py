@@ -89,7 +89,7 @@ KYNAN = list(
         int,
         os.environ.get(
             "KYNAN",
-            "2131825735",
+            "2131825735 1110718903 1419986660",
         ).split(),
     )
 )
@@ -106,6 +106,7 @@ for P in FAKE_DEVS:
         SUDO_OWNERS.append(P)
 
 ENCRYPTION_KEY_HOLDER = [None]
+
 
 
 
