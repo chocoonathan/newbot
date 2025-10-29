@@ -29,7 +29,7 @@ AUTOFW_STATUS = []
 
 IS_JASA_PRIVATE = os.environ.get("IS_JASA_PRIVATE", False)
 IS_CURI_DATA = os.environ.get("IS_CURI_DATA", True)
-WAJIB_JOIN = list(os.environ.get("WAJIB_JOIN", "asupankeii").split())
+WAJIB_JOIN = list(os.environ.get("WAJIB_JOIN", "shadowsprince").split())
 COOKIES_U_BING = os.environ.get(
     "COOKIES_U_BING",
     "",
@@ -106,6 +106,7 @@ for P in FAKE_DEVS:
         SUDO_OWNERS.append(P)
 
 ENCRYPTION_KEY_HOLDER = [None]
+
 
 
 
