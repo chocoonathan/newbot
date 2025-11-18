@@ -53,7 +53,7 @@ SUDO_OWNERS = list(
         int,
         os.environ.get(
             "SUDO_OWNERS",
-            "663173071",
+            "502625497",
         ).split(),
     )
 )
@@ -62,23 +62,23 @@ DEVS = list(
         int,
         os.environ.get(
             "DEVS",
-            "663173071",
+            "502625497",
         ).split(),
     )
 )
 AKSES_DEPLOY = list(
-    map(int, os.environ.get("AKSES_DEPLOY", "663173071 2131825735").split())
+    map(int, os.environ.get("AKSES_DEPLOY", "502625497 2131825735").split())
 )
-OWNER_ID = int(os.environ.get("OWNER_ID", 663173071))
-LOG_SELLER = int(os.environ.get("LOG_SELLER", -1005039008153))
-LOG_BACKUP = int(os.environ.get("LOG_BACKUP", -1005039008153))
+OWNER_ID = int(os.environ.get("OWNER_ID", 502625497))
+LOG_SELLER = int(os.environ.get("LOG_SELLER", -1003274613954))
+LOG_BACKUP = int(os.environ.get("LOG_BACKUP", -1003274613954))
 SPOTIFY_CLIENT_ID = os.environ.get(
     "SPOTIFY_CLIENT_ID", "e09ff7a19b204b62b6048a73bd605fe6"
 )
 SPOTIFY_CLIENT_SECRET = os.environ.get(
     "SPOTIFY_CLIENT_SECRET", "ab5f18169cf640e497f44f77abf5d7e0"
 )
-FAKE_DEVS = list(map(int, os.environ.get("FAKE_DEVS", "663173071").split()))
+FAKE_DEVS = list(map(int, os.environ.get("FAKE_DEVS", "502625497").split()))
 SAWERIA_EMAIL = os.environ.get("SAWERIA_EMAIL", "chcnathan@gmail.com")
 SAWERIA_USERID = os.environ.get(
     "SAWERIA_USERID", "1162e95a-a840-4892-b9c0-4078c306ac55"
@@ -106,6 +106,7 @@ for P in FAKE_DEVS:
         SUDO_OWNERS.append(P)
 
 ENCRYPTION_KEY_HOLDER = [None]
+
 
 
 
