@@ -196,7 +196,7 @@ async def joinvc_cmd(client, message):
                 continue
             await client.group_call.play(chat_id)
             await asyncio.sleep(1)
-            await client.group_call.mute_stream(chat_id)
+            await client.group_call.mute(chat_id)
             success.append(f"{emo.sukses} **{title}**")
             all_buttons.append([(f"🎙 {title}", f"vctools menu {short} {chat_id}")])
 
@@ -439,7 +439,7 @@ async def joinos_cmd(client, message):
                     chat_id = int(chat_id)
                 try:
                     await X.group_call.play(chat_id)
-                    await X.group_call.mute_stream(chat_id)
+                    await X.group_call.mute(chat_id)
                     sk += 1
                 except Exception:
                     gl += 1
@@ -491,3 +491,4 @@ async def turunos_cmd(client, message):
     except Exception as e:
         await proses.delete()
         return await message.reply(f"{em.gagal}**ERROR:** {str(e)}")
+
