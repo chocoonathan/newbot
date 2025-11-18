@@ -53,7 +53,7 @@ SUDO_OWNERS = list(
         int,
         os.environ.get(
             "SUDO_OWNERS",
-            "663173071 2131825735",
+            "663173071",
         ).split(),
     )
 )
@@ -62,14 +62,14 @@ DEVS = list(
         int,
         os.environ.get(
             "DEVS",
-            "663173071 2131825735",
+            "663173071",
         ).split(),
     )
 )
 AKSES_DEPLOY = list(
     map(int, os.environ.get("AKSES_DEPLOY", "663173071 2131825735").split())
 )
-OWNER_ID = int(os.environ.get("OWNER_ID", 2131825735))
+OWNER_ID = int(os.environ.get("OWNER_ID", 663173071))
 LOG_SELLER = int(os.environ.get("LOG_SELLER", -1005039008153))
 LOG_BACKUP = int(os.environ.get("LOG_BACKUP", -1005039008153))
 SPOTIFY_CLIENT_ID = os.environ.get(
@@ -106,6 +106,7 @@ for P in FAKE_DEVS:
         SUDO_OWNERS.append(P)
 
 ENCRYPTION_KEY_HOLDER = [None]
+
 
 
 
