@@ -592,7 +592,7 @@ async def callback_cancel(_, callback_query):
             info_chat = state.get(chat_id, chat_id)
             title = info_chat.get("title")
             try:
-                await userbot.group_call.unmute_stream(chat_id)
+                await userbot.group_call.unmute(chat_id)
                 return await callback_query.answer(f"Mic opened in {title} {chat_id}")
             except (NotInCallError, NoActiveGroupCall):
                 return await callback_query.answer(f"No active VC in {title}", True)
@@ -603,7 +603,7 @@ async def callback_cancel(_, callback_query):
             info_chat = state.get(chat_id, chat_id)
             title = info_chat.get("title")
             try:
-                await userbot.group_call.mute_stream(chat_id)
+                await userbot.group_call.mute(chat_id)
                 return await callback_query.answer(f"Mic muted in {title} {chat_id}")
             except (NotInCallError, NoActiveGroupCall):
                 return await callback_query.answer(f"No active VC in {title}", True)
@@ -2271,3 +2271,4 @@ async def hyt_download(client, callback_query):
             ]
         ),
     )
+
