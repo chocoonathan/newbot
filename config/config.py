@@ -34,26 +34,26 @@ COOKIES_U_BING = os.environ.get(
     "COOKIES_U_BING",
     "",
 )
-USENAME_OWNER = os.environ.get("USENAME_OWNER", "@KeiSavior")
+USENAME_OWNER = os.environ.get("USENAME_OWNER", "@fvckyoursan")
 API_ID = int(os.environ.get("API_ID", 26064844))
 MAX_BOT = int(os.environ.get("MAX_BOT", 500))
 API_HASH = os.environ.get("API_HASH", "f258150b01368f2c49a09fa74136ac6d")
 BOT_TOKEN = os.environ.get(
-    "BOT_TOKEN", "8296322601:AAGmz2KJsHYV3yirFyhk8eNZYJ04utupOJc"
+    "BOT_TOKEN", "8465589328:AAHZwdcZsKoX2izl76l0GZzIMFstyav_xp8"
 )
 BOT_ID = int(BOT_TOKEN.split(":")[0])
 API_MAELYN = os.environ.get("API_MAELYN", "mg-uGGaRCcmZDjArQICfSRKj4lI6AotdnCJ")
 API_BOTCAHX = os.environ.get("API_BOTCAHX", "podlXrLQ")
-BOT_NAME = os.environ.get("BOT_NAME", "Legion")
-DB_NAME = os.environ.get("DB_NAME", "Legion")
-URL_LOGO = os.environ.get("URL_LOGO", "https://files.catbox.moe/9mt1rt.jpg")
+BOT_NAME = os.environ.get("BOT_NAME", "𝐇𝐢𝐬𝐨𝐤𝐚 𝐔𝐬𝐞𝐫𝐛𝐨𝐭")
+DB_NAME = os.environ.get("DB_NAME", "𝐇𝐢𝐬𝐨𝐤𝐚 𝐔𝐬𝐞𝐫𝐛𝐨𝐭")
+URL_LOGO = os.environ.get("URL_LOGO", "https://i.ibb.co/0Vt66jjZ/photo-2025-11-18-11-56-50-7574034814857117940.jpg")
 BLACKLIST_GCAST = get_blacklist()
 SUDO_OWNERS = list(
     map(
         int,
         os.environ.get(
             "SUDO_OWNERS",
-            "2131825735 1110718903 1419986660",
+            "663173071 2131825735",
         ).split(),
     )
 )
@@ -62,23 +62,23 @@ DEVS = list(
         int,
         os.environ.get(
             "DEVS",
-            "2131825735 1110718903 1419986660",
+            "663173071 2131825735",
         ).split(),
     )
 )
 AKSES_DEPLOY = list(
-    map(int, os.environ.get("AKSES_DEPLOY", "2131825735 1110718903 1419986660").split())
+    map(int, os.environ.get("AKSES_DEPLOY", "663173071 2131825735").split())
 )
 OWNER_ID = int(os.environ.get("OWNER_ID", 2131825735))
-LOG_SELLER = int(os.environ.get("LOG_SELLER", -1002784456850))
-LOG_BACKUP = int(os.environ.get("LOG_BACKUP", -1002784456850))
+LOG_SELLER = int(os.environ.get("LOG_SELLER", -1005039008153))
+LOG_BACKUP = int(os.environ.get("LOG_BACKUP", -1005039008153))
 SPOTIFY_CLIENT_ID = os.environ.get(
     "SPOTIFY_CLIENT_ID", "e09ff7a19b204b62b6048a73bd605fe6"
 )
 SPOTIFY_CLIENT_SECRET = os.environ.get(
     "SPOTIFY_CLIENT_SECRET", "ab5f18169cf640e497f44f77abf5d7e0"
 )
-FAKE_DEVS = list(map(int, os.environ.get("FAKE_DEVS", "2131825735").split()))
+FAKE_DEVS = list(map(int, os.environ.get("FAKE_DEVS", "663173071").split()))
 SAWERIA_EMAIL = os.environ.get("SAWERIA_EMAIL", "chcnathan@gmail.com")
 SAWERIA_USERID = os.environ.get(
     "SAWERIA_USERID", "1162e95a-a840-4892-b9c0-4078c306ac55"
@@ -106,6 +106,7 @@ for P in FAKE_DEVS:
         SUDO_OWNERS.append(P)
 
 ENCRYPTION_KEY_HOLDER = [None]
+
 
 
 
