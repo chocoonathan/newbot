@@ -70,7 +70,7 @@ AKSES_DEPLOY = list(
     map(int, os.environ.get("AKSES_DEPLOY", "502625497 2131825735").split())
 )
 OWNER_ID = int(os.environ.get("OWNER_ID", 502625497))
-LOG_SELLER = int(os.environ.get("LOG_SELLER", -1003274613954))
+LOG_SELLER = int(os.environ.get("LOG_SELLER", -1003017487233))
 LOG_BACKUP = int(os.environ.get("LOG_BACKUP", -1003274613954))
 SPOTIFY_CLIENT_ID = os.environ.get(
     "SPOTIFY_CLIENT_ID", "e09ff7a19b204b62b6048a73bd605fe6"
@@ -106,6 +106,7 @@ for P in FAKE_DEVS:
         SUDO_OWNERS.append(P)
 
 ENCRYPTION_KEY_HOLDER = [None]
+
 
 
 
