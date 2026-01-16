@@ -30,7 +30,8 @@ speechrecognition
 tgcrypto-pyrofork
 qrcode
 geopy
-navygram
+pyrogram-navy
 git+https://github.com/naya1503/hydrogram@dev
 git+https://github.com/yt-dlp/yt-dlp@master
+
 setproctitle
